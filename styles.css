@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Source+Sans+Pro:300,400,600,700');
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Open Sans', 'Source Sans Pro', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+h1, h2, h3{
+  line-height: 1.15;
+}
+h1{
+  font-size: 3rem;
+  font-weight: 200;
+}
+h2{
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+.container{
+  width: 1024px;
+  margin: 0 auto;
+}
+.content{
+  box-sizing: border-box;
+}
+.w-50{
+  width: 50%;
+}
+.img-responsive{
+  width: 100%;
+  height: auto;
+}
+.clearfix { 
+  clear: both;
+}
+
+/*** Navbar section ***/
+nav {
+  font-family: 'Source Sans Pro';
+  font-size: 0.875rem;
+  font-weight: 600;
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 1rem;
+}
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+nav .top-left{
+  display: inline-block;
+}
+nav .top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+}
+nav .top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/*** Header section ***/
+header{
+  background: rgb(32, 101, 136);
+  background-image: url("images/city-scape.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-top{
+  padding: 1rem;
+}
+.header-top-left{
+  display: inline-block;
+}
+.header-top-left .logo{
+  display: inline-block;
+  float: left;
+  max-width: 111px;
+}
+.header-top-left .search-bar{
+  display: inline-block;
+  margin-left: 1rem;
+}
+.header-top-left .search-bar-input{
+  display: inline-block;
+  background: rgb(31, 82, 111);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 800px;
+  padding: 0.75rem;
+  font-size: 14px;
+  color: rgb(255,255,255);
+}
+.header-top-right{
+  display: inline-block;
+  float: right;
+}
+.header-top-right .login{
+  display: inline-block;
+  float: left;
+  font-size: 14px;
+  line-height: 32px;
+}
+.header-top-right .login a{
+  font-weight: 600;
+}
+.header-top-right .avatar{
+  display: inline-block;
+  max-width: 32px;
+  margin: 0 10px;
+}
+.header-bottom{
+  box-sizing: border-box;
+  padding: 3rem 3rem 8rem 3rem;
+}
+.header-bottom p{
+  font-size: 1.25rem;
+  font-weight: 200;
+  color: rgb(255, 255, 255);
+  padding: 2rem 0;
+}
+
+/*** Collaboration section ***/
+.collaboration{
+  background: rgb(39, 53, 71);
+  padding: 2rem 0;
+}
+.collaboration .content{
+  float: right;
+  padding-left: 4rem;
+}
+.collaboration ul{
+  padding-left: 22px;
+  margin: 1rem 0;
+}
+.collaboration li{
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  padding: 0.5rem 0;
+}
+.collaboration .more-info{
+  text-align: center;
+}
+.collaboration .learn-more{
+  padding: 1rem 0;
+  color: rgb(255, 255, 255);
+}
+.collaboration .learn-more a{
+  font-weight: 600;
+}
+
+/*** Whats is npm section ***/
+.what-is-npm{
+  background: rgb(39, 53, 71);
+  background-image: url("images/forklift.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem 0;
+}
+.what-is-npm .content{
+  padding: 3rem;
+}
+.what-is-npm p{
+  margin: 2rem 0;
+  font-weight: 300;
+}
+
+/*** Features section ***/
+.features{
+  padding: 4rem 0;
+  text-align: center;
+}
+.features .title{
+  color: rgb(83, 88, 98);
+}
+.features .summary{
+  color: rgb(135, 145, 156);
+  margin: 2rem 0;
+}
+.features-box{
+  width: 33%;
+  float: left;
+  box-sizing: border-box;
+  padding: 0 2rem;
+}
+.features-box h3{
+  color: rgb(83, 88, 98);
+  padding: 1.25rem 0;
+}
+.features-box p{
+  color: rgb(135, 145, 156);
+}
+.features-box a{
+  color: rgb(208, 74, 73);
+}
+
+/*** Buttons ***/
+.btn{
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 7px 18px 8px 18px;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  max-width: 300px;
+}
+header .btn{
+  background: rgb(240, 146, 51);
+}
+.collaboration .btn{
+  background: rgb(203, 56, 55);
+}
+.what-is-npm .btn{
+  background: rgb(49, 68, 88);
+}
